@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #c42020;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}

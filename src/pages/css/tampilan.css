@@ -1,0 +1,67 @@
+/* tampilan.css */
+
+body {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* tampilan.css */
+  
+  /* Menambahkan padding pada bagian atas dan bawah header */
+  header {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  /* Mengatur margin bawah pada elemen h2 dan p */
+  h2,
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Menambahkan padding pada elemen dengan kelas img-container */
+  .img-container {
+    padding: 10px;
+  }
+  
+  /* Mengatur lebar maksimum gambar produk */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Menambahkan margin bawah pada elemen dengan kelas intro-button */
+  .intro-button {
+    margin-bottom: 20px;
+  }
+  
+  /* Menambahkan padding pada bagian atas dan bawah section yang memiliki background */
+  .page-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Menambahkan background dan padding pada bagian footer */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+  }
+  
+  /* Mengatur lebar maksimum kontainer */
+  .container {
+    max-width: 1140px;
+  }
+  
+  /* Mengatur spasi antar kolom pada produk */
+  .col-lg-4 {
+    margin-bottom: 30px;
+  }
+  
+  /* Memberikan efek hover pada gambar produk */
+  .img-container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
